@@ -1,12 +1,12 @@
 package app;
 
 public class Main {
-
+    static int a = 8;
+    static int b = 2;
     public static void main(String[] args) {
-        System.out.println("My app for another Users!");
+        System.out.println("My app outside");
         System.out.println("Version 2.0");
-        int a = 8;
-        int b = 2;
+
         int c = add(a, b);
         System.out.println(c);
         int d = multiply(a, b);
